@@ -10,7 +10,7 @@
 
 ## 📌 Project Overview
 
-Pearls AQI Predictor is an end-to-end machine learning system that forecasts the Air Quality Index (AQI) for major cities **3 days into the future**. It integrates real-time pollutant data, engineers features automatically, trains and evaluates multiple ML models, and serves predictions on an interactive dashboard — all on a **100% serverless stack**.
+Pearls AQI Predictor is an end-to-end machine learning system that forecasts the Air Quality Index (AQI) for major cities **3 days into the future**. It integrates real-time pollutant data, engineers features automatically, trains and evaluates multiple ML models, and serves predictions on an interactive dashboard , all on a **100% serverless stack**.
 
 **Live Demo:** [your-app.streamlit.app](https://your-app.streamlit.app)
 
