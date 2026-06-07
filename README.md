@@ -1,4 +1,4 @@
-# 🌫️ Pearls AQI Predictor
+#  Pearls AQI Predictor
 
 > **3-Day Air Quality Index forecasting system using a fully serverless ML pipeline**
 
@@ -8,7 +8,7 @@
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 Pearls AQI Predictor is an end-to-end machine learning system that forecasts the Air Quality Index (AQI) for major cities **3 days into the future**. It integrates real-time pollutant data, engineers features automatically, trains and evaluates multiple ML models, and serves predictions on an interactive dashboard , all on a **100% serverless stack**.
 
@@ -16,7 +16,7 @@ Pearls AQI Predictor is an end-to-end machine learning system that forecasts the
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 ┌──────────────┐    ┌──────────────┐    ┌──────────────────┐
@@ -70,7 +70,7 @@ Pearls AQI Predictor is an end-to-end machine learning system that forecasts the
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 pearls-aqi-predictor/
@@ -105,7 +105,7 @@ pearls-aqi-predictor/
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Clone and install
 
@@ -145,7 +145,7 @@ streamlit run app/streamlit_app.py
 
 ---
 
-## 📊 Model Performance
+##  Model Performance
 
 | Model | RMSE ↓ | MAE ↓ | R² ↑ | Train Time |
 |---|---|---|---|---|
@@ -159,7 +159,7 @@ Evaluated on a 30-day holdout test set. Random Forest selected as production mod
 
 ---
 
-## 🔑 Key Features
+##  Key Features
 
 - **10 engineered features** including PM2.5, wind speed, humidity, cyclical time features, and AQI momentum
 - **SHAP explainability** — every prediction comes with a feature importance breakdown
@@ -169,7 +169,7 @@ Evaluated on a 30-day holdout test set. Random Forest selected as production mod
 
 ---
 
-## ⚙️ CI/CD Pipeline
+##  CI/CD Pipeline
 
 | Workflow | Schedule | What it does |
 |---|---|---|
@@ -178,7 +178,7 @@ Evaluated on a 30-day holdout test set. Random Forest selected as production mod
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Component | Technology |
 |---|---|
@@ -193,6 +193,6 @@ Evaluated on a 30-day holdout test set. Random Forest selected as production mod
 
 ---
 
-## 📄 Report
+##  Report
 
 See [`AQI_Predictor_Report.docx`](./AQI_Predictor_Report.docx) for the full project documentation including EDA findings, model analysis, and system design decisions.
