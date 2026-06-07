@@ -1,6 +1,6 @@
 """
 app/streamlit_app.py
-Interactive Streamlit dashboard for AQI predictions.
+Interactive Streamlit dashboard for Air Quality Index (AQI) predictions.
 Loads production model from Hopsworks Model Registry.
 """
 
